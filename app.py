@@ -186,4 +186,4 @@ with col10:
     st.pyplot(fig); plt.close()
 
 st.markdown("---")
-st.caption("EDA 350 | Instructor: Ali Hassan Sherazi | Submission: 05-June-2026")
+st.caption("EDA 350 | Instructor: Ali Hassan Sherazi | Submission: 26-May-2026")
