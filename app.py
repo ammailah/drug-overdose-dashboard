@@ -13,7 +13,7 @@ st.markdown("---")
 # ── Load Data ───────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/VSRR_Provisional_Drug_Overdose_Death_Counts.csv")
+    df = pd.read_csv("VSRR_Provisional_Drug_Overdose_Death_Counts.csv")
     df['Data Value'] = pd.to_numeric(df['Data Value'], errors='coerce')
     return df
 
